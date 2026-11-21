@@ -17,7 +17,26 @@
         "command": "vertices.helloWorld",
         "title": "Hello World"
       }
-    ]
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "vertices",
+          "title": "Vertices",
+          "icon": "assets/vertices.svg"
+        }
+      ]
+    },
+    "views": {
+      "vertices": [
+        {
+          "id": "main",
+          "name": "main",
+          "icon": "assets/vertices.svg",
+          "type": "webview"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
